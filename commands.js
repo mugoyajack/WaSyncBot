@@ -28,6 +28,8 @@ module.exports = {
     resetmygroupid: "rmgi", //Resets the group sender ID
 
     getgrouplinks: "ggl", //Gets the fetched group links
+    startautojoin:"saj", 
+    stopautojoin: "staj", //Stops the auto join feature
 
     broadcastmessage: "bm", //Broadcasts a message to all groups in the broadcast list
     getbroadcasttemplates: "gbt", //Gets the broadcast templates

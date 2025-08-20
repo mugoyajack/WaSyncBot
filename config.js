@@ -1,9 +1,12 @@
 module.exports = {
-  "phoneNumber": "254707142232", // Your WhatsApp phone number in international format without the '+' sign
+  "phoneNumber": "", // Your WhatsApp phone number in international format (e.g., "1234567890")
   "sessionName": "whatsapp-bot-session",
   "logLevel": "silent",
-  "minPauseBetweenMessages":  30, // Minimum pause between messages in seconds
-  "maxPauseBetweenMessages": 120, // Maximum pause between messages in seconds
-  "saveInBatchMode":true, // Save runtime files in batch mode
-  "saveBatchSize":1000, // Number of changes before writing to disk
-  };
+  "minPauseBetweenMessages": 10,
+  "maxPauseBetweenMessages": 30,
+  "saveInBatchMode": true,
+  "saveBatchSize": 1000,
+  "WARN_UNAUTHORISED": true,
+  "AUTO_JOIN_GROUPS": true,
+  "SHOW_COMMANDS": false, 
+};
