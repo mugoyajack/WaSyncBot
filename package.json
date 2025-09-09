@@ -2,10 +2,12 @@
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.18",
     "chalk": "^4.1.2",
+    "cheerio": "^1.1.2",
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "libphonenumber-js": "^1.12.10",
-    "node-cache": "^5.1.2"
+    "node-cache": "^5.1.2",
+    "sharp": "^0.32.6"
   },
   "type": "commonjs"
 }
